@@ -13,7 +13,7 @@ int main (int argc, char *argv[]){
         
         std::cout << "\033[1;35m⇨ \033[0m";
         std::cin >> command;
-        if(command == "Stop") break; // Stops running with an zero.
+        if(command == "Stop") break; // Stops running
         if(command == "Read") std::cin >> number1;
         else if(command == "Write") std::cin >> number1 >> number2;
         
